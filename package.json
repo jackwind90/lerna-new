@@ -4,6 +4,9 @@
   "devDependencies": {
     "lerna": "^3.13.3"
   },
+  "scripts": {
+    "publish": "lerna run tsc && lerna publish"
+  },
   "dependencies": {
     "@types/node": "^11.13.5",
     "react": "^16.8.6",
