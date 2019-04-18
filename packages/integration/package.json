@@ -11,5 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "ts-node": "^8.1.0"
-  }
+  },
+  "gitHead": "bdc9fc6b6e9df364245d9fe847f251bc74c1aaef"
 }
