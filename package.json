@@ -5,6 +5,10 @@
   "devDependencies": {
     "lerna": "^3.13.3"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "publish": "lerna run tsc && lerna publish from-git"
   },
