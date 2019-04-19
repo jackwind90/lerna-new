@@ -1,7 +1,7 @@
 {
   "name": "root",
   "private": false,
-  "version": "0.0.10",
+  "version": "0.0.11",
   "devDependencies": {
     "lerna": "^3.13.3"
   },
@@ -10,7 +10,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "publish": "lerna run tsc && lerna publish from-git"
+    "publish": "lerna run tsc && lerna publish"
   },
   "dependencies": {
     "@types/node": "^11.13.5",
