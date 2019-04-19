@@ -1,12 +1,12 @@
 {
   "name": "root",
   "private": false,
-  "version": "0.0.9",
+  "version": "0.0.10",
   "devDependencies": {
     "lerna": "^3.13.3"
   },
   "scripts": {
-    "publish": "lerna run tsc && lerna publish from-package"
+    "publish": "lerna run tsc && lerna publish from-git"
   },
   "dependencies": {
     "@types/node": "^11.13.5",
